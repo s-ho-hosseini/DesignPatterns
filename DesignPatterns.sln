@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Behavioral\Visitor\Visitor.csproj", "{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Structural\Composite\Composite.csproj", "{C13253D4-06A6-45EB-8709-2CC48FC545F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{2D13430E-1316-412B-84D2-C66DDE557591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{685A471D-A4BA-4D96-9454-E33D421FF473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Structural\Decorator\Decorator.csproj", "{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{F5B73C15-2186-4F0D-92AD-07221398D51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade.csproj", "{358293B9-50DA-40F6-8426-52A4C78A5915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13253D4-06A6-45EB-8709-2CC48FC545F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13253D4-06A6-45EB-8709-2CC48FC545F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13253D4-06A6-45EB-8709-2CC48FC545F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13253D4-06A6-45EB-8709-2CC48FC545F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685A471D-A4BA-4D96-9454-E33D421FF473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685A471D-A4BA-4D96-9454-E33D421FF473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685A471D-A4BA-4D96-9454-E33D421FF473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685A471D-A4BA-4D96-9454-E33D421FF473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358293B9-50DA-40F6-8426-52A4C78A5915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358293B9-50DA-40F6-8426-52A4C78A5915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358293B9-50DA-40F6-8426-52A4C78A5915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358293B9-50DA-40F6-8426-52A4C78A5915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A54AEFF7-34DF-4572-8193-240BE5F71EC4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{685A471D-A4BA-4D96-9454-E33D421FF473} = {2D13430E-1316-412B-84D2-C66DDE557591}
+		{C99E5E02-7FB3-4D57-9133-92F9B1EDCAFC} = {2D13430E-1316-412B-84D2-C66DDE557591}
+		{C13253D4-06A6-45EB-8709-2CC48FC545F0} = {2D13430E-1316-412B-84D2-C66DDE557591}
+		{BB6F5254-A3EA-49CE-BD14-C3A59D8670E2} = {F5B73C15-2186-4F0D-92AD-07221398D51E}
+		{C94739C4-E1C3-4DE2-82F1-1AC8FF9A724B} = {F5B73C15-2186-4F0D-92AD-07221398D51E}
+		{358293B9-50DA-40F6-8426-52A4C78A5915} = {2D13430E-1316-412B-84D2-C66DDE557591}
+	EndGlobalSection
+EndGlobal
